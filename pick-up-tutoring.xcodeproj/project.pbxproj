@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		709D841B2193E0B500F7AE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D841A2193E0B500F7AE72 /* AppDelegate.swift */; };
-		709D841D2193E0B500F7AE72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D841C2193E0B500F7AE72 /* ViewController.swift */; };
 		709D84202193E0B500F7AE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D841E2193E0B500F7AE72 /* Main.storyboard */; };
 		709D84222193E0B600F7AE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709D84212193E0B600F7AE72 /* Assets.xcassets */; };
 		709D84252193E0B600F7AE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D84232193E0B600F7AE72 /* LaunchScreen.storyboard */; };
+		A254D519219C346700637C06 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D518219C346700637C06 /* SignUpViewController.swift */; };
+		A254D51B219C348700637C06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D51A219C348700637C06 /* LoginViewController.swift */; };
+		A254D51F219C373800637C06 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D51E219C373800637C06 /* ProfileViewController.swift */; };
+		A254D522219C379C00637C06 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D521219C379C00637C06 /* ChoiceViewController.swift */; };
+		A254D524219C396900637C06 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D523219C396900637C06 /* FeedViewController.swift */; };
+		A254D528219C3DBD00637C06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A254D527219C3DBD00637C06 /* GoogleService-Info.plist */; };
+		DFE4741C679C382B6E5D85BA /* Pods_pick_up_tutoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8452D6D6D23EBBAEF852429 /* Pods_pick_up_tutoring.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		709D84172193E0B500F7AE72 /* pick-up-tutoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pick-up-tutoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		709D841A2193E0B500F7AE72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		709D841C2193E0B500F7AE72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		709D841F2193E0B500F7AE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		709D84212193E0B600F7AE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		709D84242193E0B600F7AE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		709D84262193E0B600F7AE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A254D518219C346700637C06 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A254D51A219C348700637C06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A254D51E219C373800637C06 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A254D521219C379C00637C06 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		A254D523219C396900637C06 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A254D527219C3DBD00637C06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8452D6D6D23EBBAEF852429 /* Pods_pick_up_tutoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pick_up_tutoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B437101159E8241EBDC4B6 /* Pods-pick-up-tutoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-up-tutoring.release.xcconfig"; path = "Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring.release.xcconfig"; sourceTree = "<group>"; };
+		D6A5BFBA8FD4A57CCDEF3126 /* Pods-pick-up-tutoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-up-tutoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE4741C679C382B6E5D85BA /* Pods_pick_up_tutoring.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085D25ABA49EE5439817283E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A5BFBA8FD4A57CCDEF3126 /* Pods-pick-up-tutoring.debug.xcconfig */,
+				C5B437101159E8241EBDC4B6 /* Pods-pick-up-tutoring.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0B9327349691AB6261B53ACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8452D6D6D23EBBAEF852429 /* Pods_pick_up_tutoring.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		709D840E2193E0B500F7AE72 = {
 			isa = PBXGroup;
 			children = (
 				709D84192193E0B500F7AE72 /* pick-up-tutoring */,
 				709D84182193E0B500F7AE72 /* Products */,
+				085D25ABA49EE5439817283E /* Pods */,
+				0B9327349691AB6261B53ACA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,36 @@
 		709D84192193E0B500F7AE72 /* pick-up-tutoring */ = {
 			isa = PBXGroup;
 			children = (
+				A254D51D219C372100637C06 /* Navigation */,
 				709D841A2193E0B500F7AE72 /* AppDelegate.swift */,
-				709D841C2193E0B500F7AE72 /* ViewController.swift */,
 				709D841E2193E0B500F7AE72 /* Main.storyboard */,
+				A254D527219C3DBD00637C06 /* GoogleService-Info.plist */,
 				709D84212193E0B600F7AE72 /* Assets.xcassets */,
 				709D84232193E0B600F7AE72 /* LaunchScreen.storyboard */,
 				709D84262193E0B600F7AE72 /* Info.plist */,
+				A254D51C219C348D00637C06 /* Authentication */,
 			);
 			path = "pick-up-tutoring";
+			sourceTree = "<group>";
+		};
+		A254D51C219C348D00637C06 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A254D518219C346700637C06 /* SignUpViewController.swift */,
+				A254D51A219C348700637C06 /* LoginViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		A254D51D219C372100637C06 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A254D521219C379C00637C06 /* ChoiceViewController.swift */,
+				A254D51E219C373800637C06 /* ProfileViewController.swift */,
+				A254D523219C396900637C06 /* FeedViewController.swift */,
+			);
+			name = Navigation;
+			path = "User Information";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 709D84292193E0B600F7AE72 /* Build configuration list for PBXNativeTarget "pick-up-tutoring" */;
 			buildPhases = (
+				A21DD2A2830A9E3BE38D39D3 /* [CP] Check Pods Manifest.lock */,
 				709D84132193E0B500F7AE72 /* Sources */,
 				709D84142193E0B500F7AE72 /* Frameworks */,
 				709D84152193E0B500F7AE72 /* Resources */,
+				86C5AA31B8AE3FDA3EBCF9D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				709D84252193E0B600F7AE72 /* LaunchScreen.storyboard in Resources */,
+				A254D528219C3DBD00637C06 /* GoogleService-Info.plist in Resources */,
 				709D84222193E0B600F7AE72 /* Assets.xcassets in Resources */,
 				709D84202193E0B500F7AE72 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +189,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86C5AA31B8AE3FDA3EBCF9D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21DD2A2830A9E3BE38D39D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pick-up-tutoring-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		709D84132193E0B500F7AE72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709D841D2193E0B500F7AE72 /* ViewController.swift in Sources */,
+				A254D51B219C348700637C06 /* LoginViewController.swift in Sources */,
+				A254D519219C346700637C06 /* SignUpViewController.swift in Sources */,
+				A254D522219C379C00637C06 /* ChoiceViewController.swift in Sources */,
+				A254D51F219C373800637C06 /* ProfileViewController.swift in Sources */,
+				A254D524219C396900637C06 /* FeedViewController.swift in Sources */,
 				709D841B2193E0B500F7AE72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,15 +392,17 @@
 		};
 		709D842A2193E0B600F7AE72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A5BFBA8FD4A57CCDEF3126 /* Pods-pick-up-tutoring.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "pick-up-tutoring/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "side-projects.pick-up-tutoring";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.DeCal.EduCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,15 +411,17 @@
 		};
 		709D842B2193E0B600F7AE72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B437101159E8241EBDC4B6 /* Pods-pick-up-tutoring.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "pick-up-tutoring/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "side-projects.pick-up-tutoring";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.DeCal.EduCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
