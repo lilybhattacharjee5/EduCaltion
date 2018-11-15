@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>771920378625-qbhooai2pd33lv3ager4et3eodf5fqb9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.771920378625-qbhooai2pd33lv3ager4et3eodf5fqb9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCNQRGLAzd4mt-zH_1T3vkKVXf0Q3EMmBs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>771920378625</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>iOS.DeCal.EduCal</string>
+	<key>PROJECT_ID</key>
+	<string>educal-cf07c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>educal-cf07c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:771920378625:ios:7152f060caa3a0f8</string>
+	<key>DATABASE_URL</key>
+	<string>https://educal-cf07c.firebaseio.com</string>
+</dict>
+</plist>

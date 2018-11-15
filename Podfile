@@ -5,12 +5,11 @@ target 'pick-up-tutoring' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for pick-up-tutoring
   pod 'Firebase/Core'
-  pod 'FirebaseAuth'
-  pod 'FirebaseStorage'
-  pod 'SDWebImage'
-  pod 'MBProgressHUD'
-  pod 'SDWebImage'
-  pod 'FirebaseDatabase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+
+  # Pods for pick-up-tutoring
+
 end

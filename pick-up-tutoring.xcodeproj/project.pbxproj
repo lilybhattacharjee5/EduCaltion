@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0628D950EABAA07E0B48AFAC /* Pods_pick_up_tutoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83BABC792528DC94EFBBE9A /* Pods_pick_up_tutoring.framework */; };
+		709D12CF219D0EE900204932 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12CD219D0EE900204932 /* SignUpViewController.swift */; };
+		709D12D0219D0EE900204932 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12CE219D0EE900204932 /* LoginViewController.swift */; };
+		709D12D4219D0F0700204932 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12D1219D0F0700204932 /* ChoiceViewController.swift */; };
+		709D12D5219D0F0700204932 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12D2219D0F0700204932 /* ProfileViewController.swift */; };
+		709D12D6219D0F0700204932 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12D3219D0F0700204932 /* FeedViewController.swift */; };
+		709D12DC219D137400204932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D12DA219D137300204932 /* LaunchScreen.storyboard */; };
+		709D12DD219D137400204932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D12DB219D137400204932 /* Main.storyboard */; };
+		709D12DF219D157700204932 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 709D12DE219D157700204932 /* GoogleService-Info.plist */; };
 		709D841B2193E0B500F7AE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D841A2193E0B500F7AE72 /* AppDelegate.swift */; };
-		709D84202193E0B500F7AE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D841E2193E0B500F7AE72 /* Main.storyboard */; };
 		709D84222193E0B600F7AE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709D84212193E0B600F7AE72 /* Assets.xcassets */; };
-		709D84252193E0B600F7AE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D84232193E0B600F7AE72 /* LaunchScreen.storyboard */; };
-<<<<<<< HEAD
 		709D842D2193E3C100F7AE72 /* TutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D842C2193E3C100F7AE72 /* TutorViewController.swift */; };
 		709D842F2193E3D400F7AE72 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D842E2193E3D400F7AE72 /* StudentViewController.swift */; };
 		709D84312193E48A00F7AE72 /* PendingRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84302193E48A00F7AE72 /* PendingRequestViewController.swift */; };
@@ -19,29 +25,24 @@
 		709D84352193E4D000F7AE72 /* TutorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */; };
 		709D84372193E4E500F7AE72 /* CreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */; };
 		709D84392193EB1700F7AE72 /* RoleSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */; };
-		709D843B2193EB3600F7AE72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D843A2193EB3600F7AE72 /* SignUpViewController.swift */; };
 		70C661F4219CDDBB004EC13C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F3219CDDBB004EC13C /* Student.swift */; };
 		70C661F6219CDDCC004EC13C /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F5219CDDCC004EC13C /* Tutor.swift */; };
 		70C661F8219CDE66004EC13C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F7219CDE66004EC13C /* Profile.swift */; };
-=======
-		A254D519219C346700637C06 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D518219C346700637C06 /* SignUpViewController.swift */; };
-		A254D51B219C348700637C06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D51A219C348700637C06 /* LoginViewController.swift */; };
-		A254D51F219C373800637C06 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D51E219C373800637C06 /* ProfileViewController.swift */; };
-		A254D522219C379C00637C06 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D521219C379C00637C06 /* ChoiceViewController.swift */; };
-		A254D524219C396900637C06 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254D523219C396900637C06 /* FeedViewController.swift */; };
-		A254D528219C3DBD00637C06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A254D527219C3DBD00637C06 /* GoogleService-Info.plist */; };
-		DFE4741C679C382B6E5D85BA /* Pods_pick_up_tutoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8452D6D6D23EBBAEF852429 /* Pods_pick_up_tutoring.framework */; };
->>>>>>> 93b46505000592f2a2b3c23db3e595cb1b836f70
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		709D12CD219D0EE900204932 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		709D12CE219D0EE900204932 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		709D12D1219D0F0700204932 /* ChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		709D12D2219D0F0700204932 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		709D12D3219D0F0700204932 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		709D12DA219D137300204932 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		709D12DB219D137400204932 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		709D12DE219D157700204932 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		709D84172193E0B500F7AE72 /* pick-up-tutoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pick-up-tutoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		709D841A2193E0B500F7AE72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		709D841F2193E0B500F7AE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		709D84212193E0B600F7AE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		709D84242193E0B600F7AE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		709D84262193E0B600F7AE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		709D842C2193E3C100F7AE72 /* TutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorViewController.swift; sourceTree = "<group>"; };
 		709D842E2193E3D400F7AE72 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		709D84302193E48A00F7AE72 /* PendingRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingRequestViewController.swift; sourceTree = "<group>"; };
@@ -49,21 +50,12 @@
 		709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorProfileViewController.swift; sourceTree = "<group>"; };
 		709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
 		709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionViewController.swift; sourceTree = "<group>"; };
-		709D843A2193EB3600F7AE72 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		70C661F3219CDDBB004EC13C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		70C661F5219CDDCC004EC13C /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		70C661F7219CDE66004EC13C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-=======
-		A254D518219C346700637C06 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		A254D51A219C348700637C06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		A254D51E219C373800637C06 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		A254D521219C379C00637C06 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
-		A254D523219C396900637C06 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		A254D527219C3DBD00637C06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B8452D6D6D23EBBAEF852429 /* Pods_pick_up_tutoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pick_up_tutoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5B437101159E8241EBDC4B6 /* Pods-pick-up-tutoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-up-tutoring.release.xcconfig"; path = "Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring.release.xcconfig"; sourceTree = "<group>"; };
-		D6A5BFBA8FD4A57CCDEF3126 /* Pods-pick-up-tutoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-up-tutoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring.debug.xcconfig"; sourceTree = "<group>"; };
->>>>>>> 93b46505000592f2a2b3c23db3e595cb1b836f70
+		A83BABC792528DC94EFBBE9A /* Pods_pick_up_tutoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pick_up_tutoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C269381F4EE220A2C5055B7F /* Pods-pick-up-tutoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-up-tutoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5AE87DC30040D87C4BA506 /* Pods-pick-up-tutoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-up-tutoring.release.xcconfig"; path = "Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,26 +63,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE4741C679C382B6E5D85BA /* Pods_pick_up_tutoring.framework in Frameworks */,
+				0628D950EABAA07E0B48AFAC /* Pods_pick_up_tutoring.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		085D25ABA49EE5439817283E /* Pods */ = {
+		60FFF7EED8516CB73D50D466 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6A5BFBA8FD4A57CCDEF3126 /* Pods-pick-up-tutoring.debug.xcconfig */,
-				C5B437101159E8241EBDC4B6 /* Pods-pick-up-tutoring.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0B9327349691AB6261B53ACA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B8452D6D6D23EBBAEF852429 /* Pods_pick_up_tutoring.framework */,
+				A83BABC792528DC94EFBBE9A /* Pods_pick_up_tutoring.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,8 +83,8 @@
 			children = (
 				709D84192193E0B500F7AE72 /* pick-up-tutoring */,
 				709D84182193E0B500F7AE72 /* Products */,
-				085D25ABA49EE5439817283E /* Pods */,
-				0B9327349691AB6261B53ACA /* Frameworks */,
+				A6859E7651ECB1A4F62C4FBA /* Pods */,
+				60FFF7EED8516CB73D50D466 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,25 +99,19 @@
 		709D84192193E0B500F7AE72 /* pick-up-tutoring */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
+				709D12DA219D137300204932 /* LaunchScreen.storyboard */,
+				709D12DB219D137400204932 /* Main.storyboard */,
 				70C661F2219CDD0E004EC13C /* Controller */,
 				70C661F1219CDD06004EC13C /* View */,
 				70C661EF219CDCED004EC13C /* Model */,
-=======
-				A254D51D219C372100637C06 /* Navigation */,
->>>>>>> 93b46505000592f2a2b3c23db3e595cb1b836f70
 				709D841A2193E0B500F7AE72 /* AppDelegate.swift */,
-				709D841E2193E0B500F7AE72 /* Main.storyboard */,
-				A254D527219C3DBD00637C06 /* GoogleService-Info.plist */,
 				709D84212193E0B600F7AE72 /* Assets.xcassets */,
-				709D84232193E0B600F7AE72 /* LaunchScreen.storyboard */,
+				709D12DE219D157700204932 /* GoogleService-Info.plist */,
 				709D84262193E0B600F7AE72 /* Info.plist */,
-				A254D51C219C348D00637C06 /* Authentication */,
 			);
 			path = "pick-up-tutoring";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		70C661EF219CDCED004EC13C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +132,11 @@
 		70C661F2219CDD0E004EC13C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				709D841C2193E0B500F7AE72 /* ViewController.swift */,
+				709D12D2219D0F0700204932 /* ProfileViewController.swift */,
+				709D12CE219D0EE900204932 /* LoginViewController.swift */,
+				709D12CD219D0EE900204932 /* SignUpViewController.swift */,
+				709D12D3219D0F0700204932 /* FeedViewController.swift */,
+				709D12D1219D0F0700204932 /* ChoiceViewController.swift */,
 				709D842C2193E3C100F7AE72 /* TutorViewController.swift */,
 				709D842E2193E3D400F7AE72 /* StudentViewController.swift */,
 				709D84322193E4C200F7AE72 /* StudentProfileViewController.swift */,
@@ -163,29 +144,17 @@
 				709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */,
 				709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */,
 				709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */,
-				709D843A2193EB3600F7AE72 /* SignUpViewController.swift */,
 			);
 			path = Controller;
-=======
-		A254D51C219C348D00637C06 /* Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				A254D518219C346700637C06 /* SignUpViewController.swift */,
-				A254D51A219C348700637C06 /* LoginViewController.swift */,
-			);
-			path = Authentication;
 			sourceTree = "<group>";
 		};
-		A254D51D219C372100637C06 /* Navigation */ = {
+		A6859E7651ECB1A4F62C4FBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A254D521219C379C00637C06 /* ChoiceViewController.swift */,
-				A254D51E219C373800637C06 /* ProfileViewController.swift */,
-				A254D523219C396900637C06 /* FeedViewController.swift */,
+				C269381F4EE220A2C5055B7F /* Pods-pick-up-tutoring.debug.xcconfig */,
+				DB5AE87DC30040D87C4BA506 /* Pods-pick-up-tutoring.release.xcconfig */,
 			);
-			name = Navigation;
-			path = "User Information";
->>>>>>> 93b46505000592f2a2b3c23db3e595cb1b836f70
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,11 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 709D84292193E0B600F7AE72 /* Build configuration list for PBXNativeTarget "pick-up-tutoring" */;
 			buildPhases = (
-				A21DD2A2830A9E3BE38D39D3 /* [CP] Check Pods Manifest.lock */,
+				896EF6C5F5BA3FCB5B31761E /* [CP] Check Pods Manifest.lock */,
 				709D84132193E0B500F7AE72 /* Sources */,
 				709D84142193E0B500F7AE72 /* Frameworks */,
 				709D84152193E0B500F7AE72 /* Resources */,
-				86C5AA31B8AE3FDA3EBCF9D6 /* [CP] Embed Pods Frameworks */,
+				EA4196810B42221082B9F9C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,60 +217,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709D84252193E0B600F7AE72 /* LaunchScreen.storyboard in Resources */,
-				A254D528219C3DBD00637C06 /* GoogleService-Info.plist in Resources */,
+				709D12DD219D137400204932 /* Main.storyboard in Resources */,
+				709D12DF219D157700204932 /* GoogleService-Info.plist in Resources */,
 				709D84222193E0B600F7AE72 /* Assets.xcassets in Resources */,
-				709D84202193E0B500F7AE72 /* Main.storyboard in Resources */,
+				709D12DC219D137400204932 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		86C5AA31B8AE3FDA3EBCF9D6 /* [CP] Embed Pods Frameworks */ = {
+		896EF6C5F5BA3FCB5B31761E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A21DD2A2830A9E3BE38D39D3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-pick-up-tutoring-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4196810B42221082B9F9C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -311,50 +284,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				709D84372193E4E500F7AE72 /* CreateRequestViewController.swift in Sources */,
 				709D84332193E4C200F7AE72 /* StudentProfileViewController.swift in Sources */,
 				709D84392193EB1700F7AE72 /* RoleSelectionViewController.swift in Sources */,
+				709D12D0219D0EE900204932 /* LoginViewController.swift in Sources */,
 				70C661F8219CDE66004EC13C /* Profile.swift in Sources */,
 				70C661F4219CDDBB004EC13C /* Student.swift in Sources */,
 				70C661F6219CDDCC004EC13C /* Tutor.swift in Sources */,
+				709D12D5219D0F0700204932 /* ProfileViewController.swift in Sources */,
 				709D84352193E4D000F7AE72 /* TutorProfileViewController.swift in Sources */,
-				709D843B2193EB3600F7AE72 /* SignUpViewController.swift in Sources */,
+				709D12D6219D0F0700204932 /* FeedViewController.swift in Sources */,
+				709D12CF219D0EE900204932 /* SignUpViewController.swift in Sources */,
 				709D842F2193E3D400F7AE72 /* StudentViewController.swift in Sources */,
-				709D841D2193E0B500F7AE72 /* ViewController.swift in Sources */,
 				709D842D2193E3C100F7AE72 /* TutorViewController.swift in Sources */,
 				709D84312193E48A00F7AE72 /* PendingRequestViewController.swift in Sources */,
-=======
-				A254D51B219C348700637C06 /* LoginViewController.swift in Sources */,
-				A254D519219C346700637C06 /* SignUpViewController.swift in Sources */,
-				A254D522219C379C00637C06 /* ChoiceViewController.swift in Sources */,
-				A254D51F219C373800637C06 /* ProfileViewController.swift in Sources */,
-				A254D524219C396900637C06 /* FeedViewController.swift in Sources */,
->>>>>>> 93b46505000592f2a2b3c23db3e595cb1b836f70
 				709D841B2193E0B500F7AE72 /* AppDelegate.swift in Sources */,
+				709D12D4219D0F0700204932 /* ChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		709D841E2193E0B500F7AE72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				709D841F2193E0B500F7AE72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		709D84232193E0B600F7AE72 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				709D84242193E0B600F7AE72 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		709D84272193E0B600F7AE72 /* Debug */ = {
@@ -475,17 +424,16 @@
 		};
 		709D842A2193E0B600F7AE72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6A5BFBA8FD4A57CCDEF3126 /* Pods-pick-up-tutoring.debug.xcconfig */;
+			baseConfigurationReference = C269381F4EE220A2C5055B7F /* Pods-pick-up-tutoring.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "pick-up-tutoring/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iOS.DeCal.EduCal;
+				PRODUCT_BUNDLE_IDENTIFIER = "side-projects.pick-up-tutoring";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -494,17 +442,16 @@
 		};
 		709D842B2193E0B600F7AE72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5B437101159E8241EBDC4B6 /* Pods-pick-up-tutoring.release.xcconfig */;
+			baseConfigurationReference = DB5AE87DC30040D87C4BA506 /* Pods-pick-up-tutoring.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "pick-up-tutoring/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iOS.DeCal.EduCal;
+				PRODUCT_BUNDLE_IDENTIFIER = "side-projects.pick-up-tutoring";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
