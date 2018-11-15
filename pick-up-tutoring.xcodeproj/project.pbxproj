@@ -12,6 +12,17 @@
 		709D84202193E0B500F7AE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D841E2193E0B500F7AE72 /* Main.storyboard */; };
 		709D84222193E0B600F7AE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709D84212193E0B600F7AE72 /* Assets.xcassets */; };
 		709D84252193E0B600F7AE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D84232193E0B600F7AE72 /* LaunchScreen.storyboard */; };
+		709D842D2193E3C100F7AE72 /* TutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D842C2193E3C100F7AE72 /* TutorViewController.swift */; };
+		709D842F2193E3D400F7AE72 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D842E2193E3D400F7AE72 /* StudentViewController.swift */; };
+		709D84312193E48A00F7AE72 /* PendingRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84302193E48A00F7AE72 /* PendingRequestViewController.swift */; };
+		709D84332193E4C200F7AE72 /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84322193E4C200F7AE72 /* StudentProfileViewController.swift */; };
+		709D84352193E4D000F7AE72 /* TutorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */; };
+		709D84372193E4E500F7AE72 /* CreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */; };
+		709D84392193EB1700F7AE72 /* RoleSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */; };
+		709D843B2193EB3600F7AE72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D843A2193EB3600F7AE72 /* SignUpViewController.swift */; };
+		70C661F4219CDDBB004EC13C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F3219CDDBB004EC13C /* Student.swift */; };
+		70C661F6219CDDCC004EC13C /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F5219CDDCC004EC13C /* Tutor.swift */; };
+		70C661F8219CDE66004EC13C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F7219CDE66004EC13C /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		709D84212193E0B600F7AE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		709D84242193E0B600F7AE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		709D84262193E0B600F7AE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709D842C2193E3C100F7AE72 /* TutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorViewController.swift; sourceTree = "<group>"; };
+		709D842E2193E3D400F7AE72 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		709D84302193E48A00F7AE72 /* PendingRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingRequestViewController.swift; sourceTree = "<group>"; };
+		709D84322193E4C200F7AE72 /* StudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
+		709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorProfileViewController.swift; sourceTree = "<group>"; };
+		709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
+		709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionViewController.swift; sourceTree = "<group>"; };
+		709D843A2193EB3600F7AE72 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		70C661F3219CDDBB004EC13C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		70C661F5219CDDCC004EC13C /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		70C661F7219CDE66004EC13C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,49 @@
 		709D84192193E0B500F7AE72 /* pick-up-tutoring */ = {
 			isa = PBXGroup;
 			children = (
+				70C661F2219CDD0E004EC13C /* Controller */,
+				70C661F1219CDD06004EC13C /* View */,
+				70C661EF219CDCED004EC13C /* Model */,
 				709D841A2193E0B500F7AE72 /* AppDelegate.swift */,
-				709D841C2193E0B500F7AE72 /* ViewController.swift */,
 				709D841E2193E0B500F7AE72 /* Main.storyboard */,
 				709D84212193E0B600F7AE72 /* Assets.xcassets */,
 				709D84232193E0B600F7AE72 /* LaunchScreen.storyboard */,
 				709D84262193E0B600F7AE72 /* Info.plist */,
 			);
 			path = "pick-up-tutoring";
+			sourceTree = "<group>";
+		};
+		70C661EF219CDCED004EC13C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70C661F3219CDDBB004EC13C /* Student.swift */,
+				70C661F5219CDDCC004EC13C /* Tutor.swift */,
+				70C661F7219CDE66004EC13C /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70C661F1219CDD06004EC13C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70C661F2219CDD0E004EC13C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				709D841C2193E0B500F7AE72 /* ViewController.swift */,
+				709D842C2193E3C100F7AE72 /* TutorViewController.swift */,
+				709D842E2193E3D400F7AE72 /* StudentViewController.swift */,
+				709D84322193E4C200F7AE72 /* StudentProfileViewController.swift */,
+				709D84302193E48A00F7AE72 /* PendingRequestViewController.swift */,
+				709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */,
+				709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */,
+				709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */,
+				709D843A2193EB3600F7AE72 /* SignUpViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +192,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709D84372193E4E500F7AE72 /* CreateRequestViewController.swift in Sources */,
+				709D84332193E4C200F7AE72 /* StudentProfileViewController.swift in Sources */,
+				709D84392193EB1700F7AE72 /* RoleSelectionViewController.swift in Sources */,
+				70C661F8219CDE66004EC13C /* Profile.swift in Sources */,
+				70C661F4219CDDBB004EC13C /* Student.swift in Sources */,
+				70C661F6219CDDCC004EC13C /* Tutor.swift in Sources */,
+				709D84352193E4D000F7AE72 /* TutorProfileViewController.swift in Sources */,
+				709D843B2193EB3600F7AE72 /* SignUpViewController.swift in Sources */,
+				709D842F2193E3D400F7AE72 /* StudentViewController.swift in Sources */,
 				709D841D2193E0B500F7AE72 /* ViewController.swift in Sources */,
+				709D842D2193E3C100F7AE72 /* TutorViewController.swift in Sources */,
+				709D84312193E48A00F7AE72 /* PendingRequestViewController.swift in Sources */,
 				709D841B2193E0B500F7AE72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
