@@ -8,34 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0628D950EABAA07E0B48AFAC /* Pods_pick_up_tutoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83BABC792528DC94EFBBE9A /* Pods_pick_up_tutoring.framework */; };
-		709D12CF219D0EE900204932 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12CD219D0EE900204932 /* SignUpViewController.swift */; };
-		709D12D0219D0EE900204932 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12CE219D0EE900204932 /* LoginViewController.swift */; };
-		709D12D4219D0F0700204932 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12D1219D0F0700204932 /* ChoiceViewController.swift */; };
-		709D12D5219D0F0700204932 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12D2219D0F0700204932 /* ProfileViewController.swift */; };
-		709D12D6219D0F0700204932 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D12D3219D0F0700204932 /* FeedViewController.swift */; };
+		18606236219D9D71007F0E49 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18606235219D9D71007F0E49 /* ProfileEditViewController.swift */; };
+		18606238219D9E68007F0E49 /* TuteeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18606237219D9E68007F0E49 /* TuteeListViewController.swift */; };
+		1860623A219DA157007F0E49 /* TutorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18606239219DA157007F0E49 /* TutorListViewController.swift */; };
+		1860623C219DA456007F0E49 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860623B219DA456007F0E49 /* NewPostViewController.swift */; };
+		1860623E219DA68D007F0E49 /* TuteeListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860623D219DA68D007F0E49 /* TuteeListCellTableViewCell.swift */; };
+		18606240219DA92B007F0E49 /* TutorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860623F219DA92B007F0E49 /* TutorListCell.swift */; };
 		709D12DC219D137400204932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D12DA219D137300204932 /* LaunchScreen.storyboard */; };
 		709D12DD219D137400204932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D12DB219D137400204932 /* Main.storyboard */; };
 		709D12DF219D157700204932 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 709D12DE219D157700204932 /* GoogleService-Info.plist */; };
 		709D841B2193E0B500F7AE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D841A2193E0B500F7AE72 /* AppDelegate.swift */; };
 		709D84222193E0B600F7AE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709D84212193E0B600F7AE72 /* Assets.xcassets */; };
-		709D842D2193E3C100F7AE72 /* TutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D842C2193E3C100F7AE72 /* TutorViewController.swift */; };
-		709D842F2193E3D400F7AE72 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D842E2193E3D400F7AE72 /* StudentViewController.swift */; };
-		709D84312193E48A00F7AE72 /* PendingRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84302193E48A00F7AE72 /* PendingRequestViewController.swift */; };
-		709D84332193E4C200F7AE72 /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84322193E4C200F7AE72 /* StudentProfileViewController.swift */; };
-		709D84352193E4D000F7AE72 /* TutorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */; };
-		709D84372193E4E500F7AE72 /* CreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */; };
-		709D84392193EB1700F7AE72 /* RoleSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */; };
 		70C661F4219CDDBB004EC13C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F3219CDDBB004EC13C /* Student.swift */; };
 		70C661F6219CDDCC004EC13C /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F5219CDDCC004EC13C /* Tutor.swift */; };
 		70C661F8219CDE66004EC13C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C661F7219CDE66004EC13C /* Profile.swift */; };
+		767052A6219D622F00E984FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767052A5219D622F00E984FC /* LoginViewController.swift */; };
+		767052A8219D639A00E984FC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767052A7219D639A00E984FC /* SignUpViewController.swift */; };
+		767052AA219D657700E984FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767052A9219D657700E984FC /* ProfileViewController.swift */; };
+		767052AC219D676D00E984FC /* NewRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767052AB219D676D00E984FC /* NewRequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		709D12CD219D0EE900204932 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		709D12CE219D0EE900204932 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		709D12D1219D0F0700204932 /* ChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
-		709D12D2219D0F0700204932 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		709D12D3219D0F0700204932 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		18606235219D9D71007F0E49 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		18606237219D9E68007F0E49 /* TuteeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuteeListViewController.swift; sourceTree = "<group>"; };
+		18606239219DA157007F0E49 /* TutorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorListViewController.swift; sourceTree = "<group>"; };
+		1860623B219DA456007F0E49 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		1860623D219DA68D007F0E49 /* TuteeListCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuteeListCellTableViewCell.swift; sourceTree = "<group>"; };
+		1860623F219DA92B007F0E49 /* TutorListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorListCell.swift; sourceTree = "<group>"; };
 		709D12DA219D137300204932 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		709D12DB219D137400204932 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		709D12DE219D157700204932 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -43,16 +42,13 @@
 		709D841A2193E0B500F7AE72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		709D84212193E0B600F7AE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		709D84262193E0B600F7AE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		709D842C2193E3C100F7AE72 /* TutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorViewController.swift; sourceTree = "<group>"; };
-		709D842E2193E3D400F7AE72 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
-		709D84302193E48A00F7AE72 /* PendingRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingRequestViewController.swift; sourceTree = "<group>"; };
-		709D84322193E4C200F7AE72 /* StudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
-		709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorProfileViewController.swift; sourceTree = "<group>"; };
-		709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
-		709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionViewController.swift; sourceTree = "<group>"; };
 		70C661F3219CDDBB004EC13C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		70C661F5219CDDCC004EC13C /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		70C661F7219CDE66004EC13C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		767052A5219D622F00E984FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		767052A7219D639A00E984FC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		767052A9219D657700E984FC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		767052AB219D676D00E984FC /* NewRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRequestViewController.swift; sourceTree = "<group>"; };
 		A83BABC792528DC94EFBBE9A /* Pods_pick_up_tutoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pick_up_tutoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C269381F4EE220A2C5055B7F /* Pods-pick-up-tutoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-up-tutoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring.debug.xcconfig"; sourceTree = "<group>"; };
 		DB5AE87DC30040D87C4BA506 /* Pods-pick-up-tutoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-up-tutoring.release.xcconfig"; path = "Pods/Target Support Files/Pods-pick-up-tutoring/Pods-pick-up-tutoring.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,18 +128,16 @@
 		70C661F2219CDD0E004EC13C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				709D12D2219D0F0700204932 /* ProfileViewController.swift */,
-				709D12CE219D0EE900204932 /* LoginViewController.swift */,
-				709D12CD219D0EE900204932 /* SignUpViewController.swift */,
-				709D12D3219D0F0700204932 /* FeedViewController.swift */,
-				709D12D1219D0F0700204932 /* ChoiceViewController.swift */,
-				709D842C2193E3C100F7AE72 /* TutorViewController.swift */,
-				709D842E2193E3D400F7AE72 /* StudentViewController.swift */,
-				709D84322193E4C200F7AE72 /* StudentProfileViewController.swift */,
-				709D84302193E48A00F7AE72 /* PendingRequestViewController.swift */,
-				709D84342193E4D000F7AE72 /* TutorProfileViewController.swift */,
-				709D84362193E4E500F7AE72 /* CreateRequestViewController.swift */,
-				709D84382193EB1700F7AE72 /* RoleSelectionViewController.swift */,
+				767052AB219D676D00E984FC /* NewRequestViewController.swift */,
+				767052A9219D657700E984FC /* ProfileViewController.swift */,
+				767052A7219D639A00E984FC /* SignUpViewController.swift */,
+				18606239219DA157007F0E49 /* TutorListViewController.swift */,
+				18606237219D9E68007F0E49 /* TuteeListViewController.swift */,
+				1860623F219DA92B007F0E49 /* TutorListCell.swift */,
+				1860623B219DA456007F0E49 /* NewPostViewController.swift */,
+				1860623D219DA68D007F0E49 /* TuteeListCellTableViewCell.swift */,
+				18606235219D9D71007F0E49 /* ProfileEditViewController.swift */,
+				767052A5219D622F00E984FC /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,22 +278,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709D84372193E4E500F7AE72 /* CreateRequestViewController.swift in Sources */,
-				709D84332193E4C200F7AE72 /* StudentProfileViewController.swift in Sources */,
-				709D84392193EB1700F7AE72 /* RoleSelectionViewController.swift in Sources */,
-				709D12D0219D0EE900204932 /* LoginViewController.swift in Sources */,
+				767052A8219D639A00E984FC /* SignUpViewController.swift in Sources */,
+				18606236219D9D71007F0E49 /* ProfileEditViewController.swift in Sources */,
+				18606240219DA92B007F0E49 /* TutorListCell.swift in Sources */,
+				1860623E219DA68D007F0E49 /* TuteeListCellTableViewCell.swift in Sources */,
 				70C661F8219CDE66004EC13C /* Profile.swift in Sources */,
 				70C661F4219CDDBB004EC13C /* Student.swift in Sources */,
+				18606238219D9E68007F0E49 /* TuteeListViewController.swift in Sources */,
+				1860623C219DA456007F0E49 /* NewPostViewController.swift in Sources */,
+				1860623A219DA157007F0E49 /* TutorListViewController.swift in Sources */,
+				767052AC219D676D00E984FC /* NewRequestViewController.swift in Sources */,
 				70C661F6219CDDCC004EC13C /* Tutor.swift in Sources */,
-				709D12D5219D0F0700204932 /* ProfileViewController.swift in Sources */,
-				709D84352193E4D000F7AE72 /* TutorProfileViewController.swift in Sources */,
-				709D12D6219D0F0700204932 /* FeedViewController.swift in Sources */,
-				709D12CF219D0EE900204932 /* SignUpViewController.swift in Sources */,
-				709D842F2193E3D400F7AE72 /* StudentViewController.swift in Sources */,
-				709D842D2193E3C100F7AE72 /* TutorViewController.swift in Sources */,
-				709D84312193E48A00F7AE72 /* PendingRequestViewController.swift in Sources */,
+				767052AA219D657700E984FC /* ProfileViewController.swift in Sources */,
+				767052A6219D622F00E984FC /* LoginViewController.swift in Sources */,
 				709D841B2193E0B500F7AE72 /* AppDelegate.swift in Sources */,
-				709D12D4219D0F0700204932 /* ChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

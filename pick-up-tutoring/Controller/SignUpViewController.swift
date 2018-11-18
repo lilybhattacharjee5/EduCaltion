@@ -2,84 +2,74 @@
 //  SignUpViewController.swift
 //  pick-up-tutoring
 //
-//  Created by Sayan Chatterjee on 11/14/18.
+//  Created by Anna Gao on 11/15/18.
 //  Copyright © 2018 Lily Bhattacharjee. All rights reserved.
 //
 
 import UIKit
-import FirebaseAuth
 
-class SignUpViewController: UIViewController, UITextFieldDelegate {
+class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
-    @IBOutlet weak var usernameTF: UITextField!
-    @IBOutlet weak var passwordTF: UITextField!
-    @IBOutlet weak var emailTF: UITextField!
-    
-    var email = ""
-    var username = ""
-    var password = ""
-    
-    @IBAction func signUpButton(_ sender: Any) {
-        guard let emailText = emailTF.text else { return }
-        guard let passwordText = passwordTF.text else { return }
-        guard let usernameText = usernameTF.text else { return }
-        
-        if emailText == "" || passwordText == "" || usernameText == "" {
-            let alertController = UIAlertController(title: "Form Error.", message: "Please fill in form completely.", preferredStyle: .alert)
-            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-            alertController.addAction(defaultAction)
-            present(alertController, animated: true, completion: nil)
-        } else {
-            Auth.auth().createUser(withEmail: emailText, password: passwordText) { (user, error) in
-                if error == nil {
-                    let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
-                    changeRequest?.displayName = usernameText
-                    changeRequest?.commitChanges { (error) in
-                        if error == nil  {
-                            let accountCreatedController = UIAlertController(title: "Success.", message: "The account has been created.", preferredStyle: .alert)
-                            let successAction = UIAlertAction(title: "OK.", style: .default) { (action:UIAlertAction) in
-                                self.performSegue(withIdentifier: "signUpToLogin", sender: self)
-                            }
-                            accountCreatedController.addAction(successAction)
-                            self.present(accountCreatedController, animated: true, completion: nil)
-                        }
-                    }
-                } else {
-                    let alertController = UIAlertController(title: "Sign Up Error", message: error?.localizedDescription, preferredStyle: .alert)
-                    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-                    alertController.addAction(defaultAction)
-                    self.present(alertController, animated: true, completion: nil)
-                }
-            }
-        }
-    }
+    var year: [String] = [String]()
+    var courses: [String] = [String]()
+    var locations: [String] = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.usernameTF.delegate = self
-        self.emailTF.delegate = self
-        self.passwordTF.delegate = self
-        // Do any additional setup after loading the view.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Do any additional setup after loading the view.
+        self.userYear.delegate = self
+        self.userYear.dataSource = self
+        self.userCoursesTaken.delegate = self
+        self.userCoursesTaken.dataSource = self
+        self.userLocation.delegate = self
+        self.userLocation.dataSource = self
+        
+        year = ["High School", "Freshman", "Sophomore", "Junior", "Senior", "Graduate"]
+        locations = ["Northside", "Southside", "Downtown"]
     }
     
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        if textField == self.usernameTF {
-            if textField.text != nil {
-                self.username = textField.text!
-            }
-        } else if textField == self.passwordTF {
-            if textField.text != nil {
-                self.password = textField.text!
-            }
-        } else {
-            if textField.text != nil {
-                self.email = textField.text!
-            }
-        }
+    @IBOutlet weak var userImage: UIImageView!
+    @IBAction func userName(_ sender: Any) {
     }
+    @IBAction func userEmail(_ sender: Any) {
+    }
+    @IBOutlet weak var userYear: UIPickerView!
+    @IBAction func userMajor(_ sender: Any) {
+    }
+    @IBOutlet weak var userCoursesTaken: UIPickerView!
+    @IBAction func userPhoneNumber(_ sender: Any) {
+    }
+    @IBOutlet weak var userLocation: UIPickerView!
+    @IBAction func userPassword(_ sender: Any) {
+    }
+    @IBAction func doneButton(_ sender: Any) {
+    }
+    
+    //Use tags to distinguish between the two picker controllers in the view controller
+    // Number of columns of data
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    // The number of rows of data
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return courses.count //change
+    }
+    
+    // The data to return for the row and component (column) that's being passed in
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return courses[row]//change
+    }
+    
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
 }

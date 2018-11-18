@@ -1,14 +1,14 @@
 //
-//  TutorProfileViewController.swift
+//  ProfileEditViewController.swift
 //  pick-up-tutoring
 //
-//  Created by Lily Bhattacharjee on 11/7/18.
+//  Created by Andy on 11/15/18.
 //  Copyright © 2018 Lily Bhattacharjee. All rights reserved.
 //
 
 import UIKit
 
-class TutorProfileViewController: UIViewController {
+class ProfileEditViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

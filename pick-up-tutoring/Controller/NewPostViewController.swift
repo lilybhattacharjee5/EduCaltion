@@ -1,22 +1,31 @@
 //
-//  CreateRequestViewController.swift
+//  NewPostViewController.swift
 //  pick-up-tutoring
 //
-//  Created by Lily Bhattacharjee on 11/7/18.
+//  Created by Andy on 11/15/18.
 //  Copyright © 2018 Lily Bhattacharjee. All rights reserved.
 //
 
 import UIKit
 
-class CreateRequestViewController: UIViewController {
+class NewPostViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-
+    @IBOutlet weak var course: UIPickerView!
+    @IBAction func topics(_ sender: Any) {
+    }
+    @IBAction func avail(_ sender: Any) {
+    }
+    @IBAction func createPost(_ sender: Any) {
+    }
+    @IBAction func userYear(_ sender: Any) {
+    }
+    @IBAction func userMajor(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
